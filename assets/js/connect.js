@@ -19,7 +19,7 @@ function googleLogin() {
             result.user.getIdToken().then((idToken) => {
                 const form = document.createElement('form');
                 form.method = 'POST';
-                form.action = '/php-login/assets/js/login.php';
+                form.action = '/login_it/index.php';
 
                 const idTokenField = document.createElement('input');
                 idTokenField.type = 'hidden';

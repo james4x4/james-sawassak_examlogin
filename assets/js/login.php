@@ -44,7 +44,7 @@ if (isset($_POST['idTokenString'])) {
         'role' => $userSnapshot->getChild('role')->getValue() ?? 'users',
     ];
 
-    header('Location: /php-login/index.php');
+    header('Location: /login_it/index.php');
     exit();
 }
 ?>
