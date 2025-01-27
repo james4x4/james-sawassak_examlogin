@@ -54,9 +54,10 @@
 
     <div>
         <?php 
-            // session_start();
-            // $user = $_SESSION['user'];
-            // echo $user['name'];
+            session_start();
+            $user = $_SESSION['user'];
+            echo $user['name'];
+            echo $user['email'];
         ?>
     </div>
 
